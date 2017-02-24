@@ -9,8 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //create a customer w/ card on file
-exports.createCustomer = app.get("/cc/:email/:desc/:tok", function createCustomer (req,res){
-    //var routes = app.get("/cc/:email/:desc/:tok");
+exports.createCustomer = app.get(".../:email/:desc/:tok", function createCustomer (req,res){
   var customer = stripe.customers.create({
     email: req.params.email,
     description: req.params.desc,
