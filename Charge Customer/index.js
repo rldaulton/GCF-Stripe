@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-//create a customer w/ card on file
+//initiate a one-off charge for a customer
 exports.chargeCustomer = app.get(".../charge/:customerid/:token/:amount", function chargeCustomer (req,res){
   stripe.charges.create({
     customer: req.params.customerid,
