@@ -8,7 +8,7 @@
 
 Check out the folders in the `master` branch where you'll find different requests ready to be dropped into your Google Cloud Functions.
 
-<h3>Getting Started</h3>
+###Getting Started
 1.) Visit the [Google Cloud Functions](https://cloud.google.com/functions/) welcome page, and click "Sign Up for Alpha". You need your account whitelisted by Google in order to use Cloud Functions in beta. See [this thread](https://github.com/apex/apex/issues/232) for more details if you have trouble getting access.
 
 2.) Once whitelisted and logged in to your Cloud Platform Console, select the hamburger menu on the left, and enter the "Cloud Functions" management section. 
@@ -28,7 +28,7 @@ Check out the folders in the `master` branch where you'll find different request
 Happy serverless computing!
 
 
-<h3>Support</h3>
+###Support
 - For support and help getting your Google Cloud Functions up an running, take a look at their [Quickstart](https://cloud.google.com/functions/docs/quickstart) page.
 - For help specifically with `HTTP Triggers` on your functions, check out the [HTTP Tutorial](https://cloud.google.com/functions/docs/tutorials/http).
 - Be sure to check out the [writing HTTP cloud functions](https://cloud.google.com/functions/docs/writing/http) section for help and formatting, should you have any trouble.
@@ -44,5 +44,7 @@ For specific support regarding the Stripe functionality of the repo, see the res
 [<h5>UNsubscribe Customer from Payment Plan</h5>](https://stripe.com/docs/api#cancel_subscription)
 
 
-<h4>Author</h4>
+####Author
 [@rldaulton](https://ryandaulton.com)
+####License
+MIT. See the [LICENSE](https://github.com/rldaulton/GCF-Stripe/blob/master/LICENSE) file for more information.
