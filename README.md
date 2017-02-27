@@ -19,9 +19,9 @@ Check out the folders in the `master` branch where you'll find different request
 
 <h6>Deploying...</h6>
 
-4.) Select `Inline Editor` under the Source code option, or upload your your own versiobn, using the code supplied in this repo. 
+4.) Select `Inline Editor` under the Source code option, or upload your own version, using the code supplied in this repo. 
 
-5.) Ensure that you have filled in the code with your Stripe information, most importantly your [Stripe Keys](https://github.com/rldaulton/GCF-Stripe/blob/36f0bef34cfd0d37676208cdec7119c3bdca244a/Charge%20Customer/index.js#L4), which you can find in your Stripe Dashboard under `Dashboard > API`.
+5.) Ensure that you have replaced the pieces of code, where necessary, with your Stripe information - most importantly your [Stripe Keys](https://github.com/rldaulton/GCF-Stripe/blob/36f0bef34cfd0d37676208cdec7119c3bdca244a/Charge%20Customer/index.js#L4), which you can find in your Stripe Dashboard under `Dashboard > API`.
 
 6.) Once deployed, use your client to call the endpoint for your function & supply the correct [parameters encoded](https://github.com/rldaulton/GCF-Stripe/blob/96fc38fc0220aee9a0ecaee718a8b0edf1db18d8/Charge%20Customer/index.js#L12) in the `URL` to interact with the Stripe API. 
 
@@ -35,13 +35,13 @@ Happy serverless computing!
 
 For specific support regarding the Stripe functionality of the repo, see the respective sections below for Stripe's `Node JS` [API Docs](https://stripe.com/docs/api):
 
-[<h5>Creating a Customer</h5>](https://stripe.com/docs/api#create_customer)
+[<h5>Creating a Customer</h5>](https://stripe.com/docs/api/node#create_customer)
 
-[<h5>Initiating a Charge</h5>](https://stripe.com/docs/api#create_charge)
+[<h5>Initiating a Charge</h5>](https://stripe.com/docs/api/node#create_charge)
 
-[<h5>Subscribe Customer to Payment Plan</h5>](https://stripe.com/docs/api#create_subscription)
+[<h5>Subscribe Customer to Payment Plan</h5>](https://stripe.com/docs/api/node#create_subscription)
 
-[<h5>UNsubscribe Customer from Payment Plan</h5>](https://stripe.com/docs/api#cancel_subscription)
+[<h5>UNsubscribe Customer from Payment Plan</h5>](https://stripe.com/docs/api/node#cancel_subscription)
 
 
 ####Author
