@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/cocoapods/l/Neon.svg)](http://doge.mit-license.org)
 
-`GCF-Stripe`is a serverless implementation of basic Stripe requests using Google Cloud Functions as containerized microservices. This repo is design to help those just beginning with Google's Cloud Platform to get some basic services up and running on the Cloud Function product.
+`GCF-Stripe`is a serverless implementation of basic Stripe requests using Google Cloud Functions as containerized microservices. This repo is designed to help those just beginning with Google's Cloud Platform to get some basic services up and running on the Cloud Function product.
 
 Check out the folders in the `master` branch where you'll find different requests ready to be dropped into your Google Cloud Functions.
 
