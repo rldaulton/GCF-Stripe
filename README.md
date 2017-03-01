@@ -43,6 +43,10 @@ For specific support regarding the Stripe functionality of the repo, see the res
 
 [<h5>UNsubscribe Customer from Payment Plan</h5>](https://stripe.com/docs/api/node#cancel_subscription)
 
+[<h5>Adding a Source</h5>](https://stripe.com/docs/api/node#create_source)
+
+[<h5>Delete a Source</h5>](https://stripe.com/docs/api/node#delete_card) (card)
+
 
 ####Author
 [@rldaulton](https://ryandaulton.com)
