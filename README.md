@@ -6,24 +6,24 @@
 
 `GCF-Stripe`is a serverless implementation of basic Stripe requests using Google Cloud Functions as containerized microservices. This repo is designed to help those just beginning with Google's Cloud Platform to get some basic services up and running on the Cloud Function product.
 
-Check out the folders in the `master` branch where you'll find different requests ready to be dropped into your Google Cloud Functions.
+Check out the folders in the `master` branch where you'll find different requests ready to be dropped into your Google Cloud Functions - all packaged as `index.js` files, and ready to go.
 
 ###Getting Started
 1.) Visit the [Google Cloud Functions](https://cloud.google.com/functions/) welcome page, and click "Sign Up for Alpha". You need your account whitelisted by Google in order to use Cloud Functions in beta. See [this thread](https://github.com/apex/apex/issues/232) for more details if you have trouble getting access.
 
-2.) Once whitelisted and logged in to your Cloud Platform Console, select the hamburger menu on the left, and enter the "Cloud Functions" management section. 
+2.) Once whitelisted and logged in to your Cloud Platform Console, select the hamburger menu on the left, and enter the "Cloud Functions" management section.
 
 ![gcf-menu](Screenshots/gcf-menu.png)
 
-3.) From here, you will create a new cloud function, ensuring to select `HTTP Trigger` as the Trigger option. 
+3.) From here, you will create a new cloud function, ensuring to select `HTTP Trigger` as the Trigger option.
 
 <h6>Deploying...</h6>
 
-4.) Select `Inline Editor` under the Source code option, or upload your own version, using the code supplied in this repo. 
+4.) Select `Inline Editor` under the Source code option, or upload your own version, using the code supplied in this repo.
 
 5.) Ensure that you have replaced the pieces of code, where necessary, with your Stripe information - most importantly your [Stripe Keys](https://github.com/rldaulton/GCF-Stripe/blob/36f0bef34cfd0d37676208cdec7119c3bdca244a/Charge%20Customer/index.js#L4), which you can find in your Stripe Dashboard under `Dashboard > API`.
 
-6.) Once deployed, use your client to call the endpoint for your function & supply the correct [parameters encoded](https://github.com/rldaulton/GCF-Stripe/blob/96fc38fc0220aee9a0ecaee718a8b0edf1db18d8/Charge%20Customer/index.js#L12) in the `URL` to interact with the Stripe API. 
+6.) Once deployed, use your client to call the endpoint for your function & supply the correct [parameters encoded](https://github.com/rldaulton/GCF-Stripe/blob/96fc38fc0220aee9a0ecaee718a8b0edf1db18d8/Charge%20Customer/index.js#L12) in the `URL` to interact with the Stripe API.
 
 Happy serverless computing!
 
