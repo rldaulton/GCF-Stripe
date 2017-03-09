@@ -32,6 +32,7 @@ Happy serverless computing!
 - For support and help getting your Google Cloud Functions up an running, take a look at their [Quickstart](https://cloud.google.com/functions/docs/quickstart) page.
 - For help specifically with `HTTP Triggers` on your functions, check out the [HTTP Tutorial](https://cloud.google.com/functions/docs/tutorials/http).
 - Be sure to check out the [writing HTTP cloud functions](https://cloud.google.com/functions/docs/writing/http) section for help and formatting, should you have any trouble.
+- Looking for more serverless repos? Check out [awesome-serverless](https://github.com/anaibol/awesome-serverless).
 
 For specific support regarding the Stripe functionality of the repo, see the respective sections below for Stripe's `Node JS` [API Docs](https://stripe.com/docs/api):
 
