@@ -8,10 +8,11 @@
 
 Check out the folders in the `master` branch where you'll find different requests ready to be dropped into your Google Cloud Functions - all packaged as `index.js` files, and ready to go.
 
-###Getting Started
-1.) Visit the [Google Cloud Functions](https://cloud.google.com/functions/) welcome page, and click "Sign Up for Alpha". You need your account whitelisted by Google in order to use Cloud Functions in beta. See [this thread](https://github.com/apex/apex/issues/232) for more details if you have trouble getting access.
+### Getting Started
 
-2.) Once whitelisted and logged in to your Cloud Platform Console, select the hamburger menu on the left, and enter the "Cloud Functions" management section.
+1.) Visit the [Google Cloud Functions](https://cloud.google.com/functions/) welcome page, and sign up for a free trial, or sign in to your Google Cloud account.
+
+2.) Once logged in to your Cloud Platform Console, select the hamburger menu on the left, and enter the "Cloud Functions" management section.
 
 ![gcf-menu](Screenshots/gcf-menu.png)
 
