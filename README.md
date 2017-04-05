@@ -29,7 +29,7 @@ Check out the folders in the `master` branch where you'll find different request
 Happy serverless computing!
 
 
-###Support
+### Support
 - For support and help getting your Google Cloud Functions up an running, take a look at their [Quickstart](https://cloud.google.com/functions/docs/quickstart) page.
 - For help specifically with `HTTP Triggers` on your functions, check out the [HTTP Tutorial](https://cloud.google.com/functions/docs/tutorials/http).
 - Be sure to check out the [writing HTTP cloud functions](https://cloud.google.com/functions/docs/writing/http) section for help and formatting, should you have any trouble.
