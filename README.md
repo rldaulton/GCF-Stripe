@@ -50,7 +50,8 @@ For specific support regarding the Stripe functionality of the repo, see the res
 [<h5>Delete a Source</h5>](https://stripe.com/docs/api/node#delete_card)
 
 
-####Author
+#### Author
 [@rldaulton](https://ryandaulton.com)
-####License
+
+#### License
 MIT. See the [LICENSE](https://github.com/rldaulton/GCF-Stripe/blob/master/LICENSE) file for more information.
