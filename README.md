@@ -3,6 +3,7 @@
 ### Containerize and flatten your payment processing server into microservices using GCF.
 
 [![License](https://img.shields.io/cocoapods/l/Neon.svg)](http://doge.mit-license.org)
+[![codebeat badge](https://codebeat.co/badges/7bb36358-6412-4f20-9833-5e29f4bc9fd7)](https://codebeat.co/projects/github-com-rldaulton-gcf-stripe-master)
 
 `GCF-Stripe`is a serverless implementation of basic Stripe requests using Google Cloud Functions as containerized microservices. This repo is designed to help those just beginning with Google's Cloud Platform to get some basic services up and running on the Cloud Function product.
 
