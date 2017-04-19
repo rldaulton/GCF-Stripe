@@ -17,6 +17,7 @@ exports.updatePaymentSource = app.get("/:customerid/:oldsourceid/:newsourcetoken
 		if(err) {
       		return res.send(JSON.stringify(err));
     	}
+//codebeat:disable
     	stripe.customers.createSource(
   			req.params.customerid,
   		{ source: req.params.newsource },
@@ -27,6 +28,6 @@ exports.updatePaymentSource = app.get("/:customerid/:oldsourceid/:newsourcetoken
           //returns the new source id only
           res.send(JSON.stringify(card["id"]));
         });
-
+//codebeat:enable
   	});
 });
