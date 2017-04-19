@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 
 //add a payment source (card) to customerid
 exports.addPaymentSource = app.get("/:customerid/:tok", function addPaymentSource (req,res){
-//codebeat:disable
   stripe.customers.createSource(
   req.params.customerid,
   { source: req.params.tok},
@@ -21,6 +20,5 @@ exports.addPaymentSource = app.get("/:customerid/:tok", function addPaymentSourc
     }
     //returns new source id to client
     res.send(JSON.stringify(card["id"]));
-//codebeat:enable
   });
 });
