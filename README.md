@@ -1,3 +1,8 @@
+<p align="center">
+  <strong>Please Note:</strong></br>
+  <i>This repository is no longer maintained and much of the APIs used have been changed or updated</i>
+</p>
+
 ![logo](Screenshots/GCF-Stripe.png)
 
 ### Containerize and flatten your payment processing server into microservices using GCF.
